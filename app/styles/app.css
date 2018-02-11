@@ -17,6 +17,8 @@ a, a:hover {
 
 #main a {
 	color: #dd6a58;
+	text-transform: uppercase;
+	font-weight: lighter;
 }
 
 .menu-button{
@@ -40,11 +42,13 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
+	margin: auto;
 	/*border: red solid 1px;*/
 }
 
 h2 {
 	text-align: center;
+	font-size: 1.5em;
 }
 
 img {
@@ -69,5 +73,16 @@ li {
 
 p {
 	width: 30%;
-	margin: 15px auto ;
+	margin: 15px auto;
+}
+
+.numbers {
+	padding: 0.4em 0.8em;
+	background-color: #024959;
+	border-radius: 0.3em;
+	color: white;
+}
+
+p[class="well"] {
+	box-shadow: 5px 5px 5px #aaa;
 }

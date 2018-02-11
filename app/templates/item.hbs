@@ -1,6 +1,6 @@
 <h2>{{model.name}}</h2>
 <img class="item" src="{{model.image}}" alt="{{model.id}}">
-<p>Calories: {{model.calories}}</p>
-<p>Rating: {{model.rating}}</p>
-<p>{{model.description}}</p>
+<p class="well">Calories: <span class="numbers">{{model.calories}}</span></p>
+<p class="well">Rating: <span class="numbers">{{model.rating}}</span></p>
+<p class="well">{{model.description}}</p>
 {{outlet}}

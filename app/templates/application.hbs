@@ -1,5 +1,9 @@
 <ul>
-	<h1 id="main"><a href="/">Ember Udacimeals</a></h1>
-	<li class="menu-button"><a href="/menu">Menu</a></li>
+	<h1 id="main">
+		{{#link-to 'index'}}Ember Udacimeals{{/link-to}}
+	</h1>
+	<li class="menu-button">
+		{{#link-to "menu"}}Menu{{/link-to}}
+	</li>
 </ul>
 {{outlet}}

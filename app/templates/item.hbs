@@ -1,5 +1,6 @@
-<h2>Pizza</h2>
-<img class="item" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="pizza">
-<p>Rating: 3.9</p>
-<p>Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese.</p>
+<h2>{{model.name}}</h2>
+<img class="item" src="{{model.image}}" alt="{{model.id}}">
+<p>Calories: {{model.calories}}</p>
+<p>Rating: {{model.rating}}</p>
+<p>{{model.description}}</p>
 {{outlet}}

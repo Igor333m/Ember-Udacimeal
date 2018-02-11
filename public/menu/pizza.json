@@ -1,0 +1,9 @@
+{
+ "id": "pizza",
+ "name": "Pizza Nea Margherita",
+ "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+ "calories": "670",
+ "rating": 4.1,
+ "description": "Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella fior di latte, fresh basil, salt and extra-virgin olive oil."
+}
+

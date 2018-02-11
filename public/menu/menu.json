@@ -1,0 +1,17 @@
+[
+  {
+     "id": "pizza",
+     "name": "Pizza Nea Margherita",
+     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+  },
+  {
+     "id": "cevapi",
+     "name": "Cevapi Serbian Style",
+     "image": "https://foodyclub.rs/img/rest_87/img_3371_1456245793.jpg"
+  },
+  {
+     "id": "baklava",
+     "name": "Baklava alla Instanbul",
+     "image": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/10/25/0/CC-kelsey-nixon_baklava-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351633050712.jpeg"
+  }
+]

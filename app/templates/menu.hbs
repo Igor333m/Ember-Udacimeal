@@ -1,0 +1,12 @@
+{{log model}}
+
+<ul class="items-container">
+	{{#each model as |item|}}
+	<li class="menu-item">
+		<h2>{{item.name}}</h2>
+		<img src="{{item.image}}" alt="{{item.name}}">
+		<p><a href="/item/{{item.id}}">Details</a></p>
+	</li>
+	{{/each}}
+</ul>
+{{outlet}}

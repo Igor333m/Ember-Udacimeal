@@ -1,0 +1,73 @@
+/* Application template*/
+html {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#main {
+	margin-left: 15%;
+	font-size: 2.7rem;
+	font-weight: 300;
+	/*border: blue solid 1px;*/
+}
+
+#main a {
+	color: #dd6a58;
+}
+
+.menu-button{
+	margin: auto 20px;
+	padding: 1em 2em;
+	background-color: #dd6a58;
+	display: inline-block;
+	width: 4em;
+	text-align: center;
+	border-radius: 0.5em;
+	font-weight: bolder;
+}
+
+.menu-button a {
+	color: white;
+}
+
+/* Menu template*/
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	/*border: red solid 1px;*/
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+li {
+	/*border: blue solid 1px;*/
+	margin: 0 10px;
+	list-style: none;
+	width: 30%;
+	display: inline-block;
+	
+}
+
+/* Item template*/
+.item {
+	display: block;
+	margin: 10px auto ;
+	width: 30%;
+}
+
+p {
+	width: 30%;
+	margin: 15px auto ;
+}
